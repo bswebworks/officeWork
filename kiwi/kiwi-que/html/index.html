@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Klooff web page</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+    	<div class="container">
+    		<a href="JavaScript:void(0);" class="logo left"><h1>KLOOFF</h1><span>The World’s Favorite Pets</span></a>
+    		<div class="right">
+    			<i class="icon-search"></i>
+    			<div class="notification_doge">3</div>	
+    			<div class="user_detail">
+    				<span class="user_image"><img src="images/user.jpg" alt="JonJackson"></span>
+    				<span class="user_name">JonJackson</span>
+    			</div>
+    			<label class="btn ">
+    				<input type="file" class="hide" name="newFeed">
+    				<i class="icon_img"></i>
+    				<span class="btn_txt">Upload Image</span>
+    			</label>
+    		</div>
+    		
+    	</div>
+    </header>
+    <div class="container d-flex">
+    	<!-- Feed Section -->
+    	<section class="flex_2">
+    		<h2>FEED</h2>
+    		<!-- Filter Menu -->
+    		<div class="menu_list">
+    			<div class="mob_menu">
+    				<span class="selected_txt">Following</span>
+    				<i class="icon_down_arrow"></i>
+    			</div>
+
+    			<ul class="list_options">
+    				<li>Newest</li>
+    				<li>Following</li>
+    				<li>Trending</li>
+    				<li>Most Shared</li>
+    			</ul>
+    		</div>
+    		<!-- Filter Menu End -->
+
+    		<!-- Post Container -->
+    		<div class="post_container">
+    			<!-- Image Post Feed -->
+    			<div class="post">
+    				<figure>
+  						<img src="feed_post.jpg" alt="The Pulpit Rock" width="304" height="228">
+					</figure>
+
+					<div class="post_detail">
+						<div class="user_image"><img src="images/user_1.jpg" alt="user_1"></div>
+						<div class="post_content">
+							<div class="post_userinfo">
+								<h3>Red Jackson <span>&bull; Son of</span> Jon Jackson</h3>
+								<a href="JavaScript:void(0);" class="locaton_detail">
+									<i class="icon-location"></i>
+									<span class="location_txt">Brooklyn, New york</span>
+								</a>
+							</div>
+							<div class="post_infoaction">
+								<span class="posting_time"> <i class="icon_clock"></i> <span class="time">35m</span></span>
+								<i class="action_bar icon_action_menu"></i>
+							</div>
+							<p class="post_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod  quis nostrud exercitation ullamco laboris nisi </p>
+						</div> 
+						<!-- Post like, Share, Comment Info -->
+						<div class="post_social_detail d-flex">
+							<div class="like_box">
+								<i class="icon_like active"></i>
+								<span class="like_count">2,123</span>
+							</div>
+
+							<div class="comment_box">
+								<i class="icon_comment"></i>
+								<span class="comment_count">123</span>
+							</div>
+
+							<div class="share_box">
+								<i class="icon_share"></i>
+								<span class="share_count">13</span>
+							</div>
+						</div>
+						<!-- Post like, Share, Comment Info End -->
+					</div>
+    			</div>
+    			<!-- Image Post Feed End -->
+
+    		</div>
+    		<!-- Post Container End -->
+    	</section>
+    	<!-- End Feed Section -->
+
+    	<!-- Featured Section -->
+    	<section class="flex_2">
+    		<h2>FEATURED</h2>
+    		<!-- Featured Post containers -->
+    		<div>
+    			<img src="images/featured.jpg" alt="Featured Post">
+    		</div>
+
+    		<div>
+    			<img src="images/featured.jpg" alt="Featured Post">
+    		</div>
+
+    		<div>
+    			<img src="images/featured.jpg" alt="Featured Post">
+    		</div>
+    		<div>
+    			<img src="images/featured.jpg" alt="Featured Post">
+    		</div>
+    		<!-- Featured Post containers End -->
+    	</section>
+    	<!-- End Featured Section -->
+
+    	<!-- Top10 & Leaderbord Section -->
+    	<section class="flex_2">
+    		<h2>TOP 10</h2>
+    		<!-- Filter Menu -->
+    		<div class="menu_list">
+    			<div class="mob_menu">
+    				<span class="selected_txt">Today</span>
+    				<i class="icon_down_arrow"></i>
+    			</div>
+
+    			<ul class="list_options">
+    				<li>Today</li>
+    				<li>This Week</li>
+    				<li>This Month</li>
+    				<li>All Time</li>
+    			</ul>
+    		</div>
+    		<!-- Filter Menu End -->
+
+    		<!-- Top Post Container -->
+    		<div class="top_post_container">
+    			<!-- Top Feed -->
+    			<div class="top_feed">
+    				<div class="top_feed_image left">
+    					<span class="feed_count">1</span>
+    					<img src="images/top-1" alt="post name"> 	
+    				</div>
+
+    				<div class="feed_detail">
+    					<h4>Red Jackson</h4>
+    					<span class="location_txt">Brooklyn, New york</span>
+    					<h5 class="sibling_of">Son of <span>Jon Jackson</span></h5>
+
+    					<!-- Top Post like, Share Info -->
+						<div class="post_social_detail d-flex">
+							<div class="like_box">
+								<i class="icon_like active"></i>
+								<span class="like_count">2,123 Likes</span>
+							</div>
+
+							<div class="share_box mar_left_auto">
+								<i class="icon_share"></i>
+								
+							</div>
+						</div>
+						<!-- Top Post like, Share, Comment Info End -->
+    				</div>
+    			</div>
+    			<!-- Top Feed End -->
+    		</div>
+    		<!-- Top Post Container End-->
+    	</section>
+    	<!-- Top10 Feed Section -->
+    </div>
+    <script src="js/jquery.min.js"></script>
+	<script src="js/myscript.js"></script>
+</body>
+</html>
